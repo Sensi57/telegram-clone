@@ -1,8 +1,11 @@
 import { Moon, Sun } from "lucide-react";
 import { useTheme, type Theme } from "../model/store";
+import { useTranslation } from "react-i18next";
 
 export function ThemeSwitch() {
   const { theme, setTheme } = useTheme();
+  const { t } = useTranslation();
+
   return (
     <div className="p-3 flex gap-3">
       {(["dark", "light"] as Theme[]).map((th) => {
@@ -30,7 +33,7 @@ export function ThemeSwitch() {
                 on ? "text-accent" : "text-fg-sub"
               }`}
             >
-              {th}
+              {t(`settings.${th}`)}
             </span>
           </button>
         );

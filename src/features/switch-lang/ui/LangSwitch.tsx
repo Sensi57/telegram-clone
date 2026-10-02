@@ -6,7 +6,7 @@ export function LangSwitch() {
   const { i18n } = useTranslation();
   return (
     <div className="p-2">
-      {LANGS.map(({ code, label, flag }) => {
+      {LANGS.map(({ code, label }) => {
         const on = i18n.language === code;
         return (
           <button
