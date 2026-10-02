@@ -4,5 +4,5 @@ import { LoginPage } from "@/pages/login-page/ui/LoginPage";
 
 export default function App() {
   const authed = useSession((s) => !!s.credentials);
-  return authed ? <ChatPage> : <LoginPage />;
+  return authed ? <ChatPage /> : <LoginPage />;
 }
