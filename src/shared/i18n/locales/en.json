@@ -1,8 +1,43 @@
 {
-  "login": { "title": "Sign in to MAX Chat", "subtitle": "Enter your GREEN-API instance credentials", "idInstance": "idInstance", "token": "apiTokenInstance", "submit": "Sign in", "checking": "Checking…", "error": "Sign-in failed. Check idInstance and token" },
-  "sidebar": { "chats": "Chats", "search": "Search", "empty": "No chats yet. Press ✎ to start", "noMessages": "No messages" },
-  "newChat": { "title": "New chat", "phone": "Phone number", "hint": "International format, e.g. 79991234567", "create": "Create", "notFound": "Number not found in MAX", "invalid": "Enter a valid number", "cancel": "Cancel" },
-  "chat": { "placeholder": "Write a message...", "select": "Select a chat or create a new one", "today": "Today", "yesterday": "Yesterday" },
-  "settings": { "title": "Settings", "appearance": "Appearance", "theme": "Theme", "dark": "Dark", "light": "Light", "general": "General", "language": "Language", "logout": "Log out" },
+  "login": {
+    "title": "Sign in to Green Chat",
+    "subtitle": "Enter your GREEN-API instance credentials",
+    "idInstance": "idInstance",
+    "token": "apiTokenInstance",
+    "submit": "Sign in",
+    "checking": "Checking…",
+    "error": "Sign-in failed. Check idInstance and token"
+  },
+  "sidebar": {
+    "chats": "Chats",
+    "search": "Search",
+    "empty": "No chats yet. Press ✎ to start",
+    "noMessages": "No messages"
+  },
+  "newChat": {
+    "title": "New chat",
+    "phone": "Phone number",
+    "hint": "International format, e.g. 79991234567",
+    "create": "Create",
+    "notFound": "Number not found in MAX",
+    "invalid": "Enter a valid number",
+    "cancel": "Cancel"
+  },
+  "chat": {
+    "placeholder": "Write a message...",
+    "select": "Select a chat or create a new one",
+    "today": "Today",
+    "yesterday": "Yesterday"
+  },
+  "settings": {
+    "title": "Settings",
+    "appearance": "Appearance",
+    "theme": "Theme",
+    "dark": "Dark",
+    "light": "Light",
+    "general": "General",
+    "language": "Language",
+    "logout": "Log out"
+  },
   "common": { "back": "Back" }
 }

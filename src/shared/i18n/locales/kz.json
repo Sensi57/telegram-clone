@@ -1,8 +1,43 @@
 {
-  "login": { "title": "MAX Chat жүйесіне кіру", "subtitle": "GREEN-API инстанс деректерін енгізіңіз", "idInstance": "idInstance", "token": "apiTokenInstance", "submit": "Кіру", "checking": "Тексерілуде…", "error": "Кіру мүмкін болмады. idInstance және токенді тексеріңіз" },
-  "sidebar": { "chats": "Чаттар", "search": "Іздеу", "empty": "Чат жоқ. Бастау үшін ✎ басыңыз", "noMessages": "Хабарлама жоқ" },
-  "newChat": { "title": "Жаңа чат", "phone": "Телефон нөмірі", "hint": "Халықаралық форматта, мыс. 79991234567", "create": "Құру", "notFound": "Нөмір MAX-та табылмады", "invalid": "Дұрыс нөмір енгізіңіз", "cancel": "Бас тарту" },
-  "chat": { "placeholder": "Хабарлама жазу...", "select": "Чатты таңдаңыз немесе жаңасын жасаңыз", "today": "Бүгін", "yesterday": "Кеше" },
-  "settings": { "title": "Параметрлер", "appearance": "Көрініс", "theme": "Тақырып", "dark": "Күңгірт", "light": "Жарық", "general": "Негізгі", "language": "Тіл", "logout": "Шығу" },
+  "login": {
+    "title": "Green Chat жүйесіне кіру",
+    "subtitle": "GREEN-API инстанс деректерін енгізіңіз",
+    "idInstance": "idInstance",
+    "token": "apiTokenInstance",
+    "submit": "Кіру",
+    "checking": "Тексерілуде…",
+    "error": "Кіру мүмкін болмады. idInstance және токенді тексеріңіз"
+  },
+  "sidebar": {
+    "chats": "Чаттар",
+    "search": "Іздеу",
+    "empty": "Чат жоқ. Бастау үшін ✎ басыңыз",
+    "noMessages": "Хабарлама жоқ"
+  },
+  "newChat": {
+    "title": "Жаңа чат",
+    "phone": "Телефон нөмірі",
+    "hint": "Халықаралық форматта, мыс. 79991234567",
+    "create": "Құру",
+    "notFound": "Нөмір MAX-та табылмады",
+    "invalid": "Дұрыс нөмір енгізіңіз",
+    "cancel": "Бас тарту"
+  },
+  "chat": {
+    "placeholder": "Хабарлама жазу...",
+    "select": "Чатты таңдаңыз немесе жаңасын жасаңыз",
+    "today": "Бүгін",
+    "yesterday": "Кеше"
+  },
+  "settings": {
+    "title": "Параметрлер",
+    "appearance": "Көрініс",
+    "theme": "Тақырып",
+    "dark": "Күңгірт",
+    "light": "Жарық",
+    "general": "Негізгі",
+    "language": "Тіл",
+    "logout": "Шығу"
+  },
   "common": { "back": "Артқа" }
 }
