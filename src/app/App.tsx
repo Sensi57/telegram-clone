@@ -1,4 +1,4 @@
-import { useSession } from "@/entities/model/store";
+import { useSession } from "@/entities/session/model/store";
 import { ChatPage } from "@/pages/chat-page/ui/ChatPage";
 import { LoginPage } from "@/pages/login-page/ui/LoginPage";
 
