@@ -3,6 +3,7 @@
 interface ImportMetaEnv {
   readonly VITE_GREEN_API_URL: string;
   readonly VITE_POLL_TIMEOUT_SEC: string;
+  readonly VITE_DEFAULT_THEME: "dark" | "light";
   readonly VITE_DEV_ID_INSTANCE?: string;
   readonly VITE_DEV_API_TOKEN?: string;
 }
