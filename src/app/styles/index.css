@@ -1,0 +1,106 @@
+@import "tailwindcss";
+
+[data-theme="dark"] {
+  --app-bg: #0d1117;
+  --sidebar-bg: #161b22;
+  --chat-bg: #0d1117;
+  --header-bg: rgba(22, 27, 34, 0.85);
+  --input-area-bg: rgba(22, 27, 34, 0.95);
+  --surface: #21262d;
+  --surface-hover: #30363d;
+  --line: rgba(48, 54, 61, 0.8);
+  --fg: #e6edf3;
+  --fg-sub: #8b949e;
+  --fg-muted: #6e7681;
+  --sent-bg: #1f6feb;
+  --sent-fg: #fff;
+  --sent-meta: rgba(255, 255, 255, 0.6);
+  --recv-bg: #21262d;
+  --recv-fg: #e6edf3;
+  --recv-meta: #6e7681;
+  --accent: #1f6feb;
+  --accent-soft: rgba(31, 111, 235, 0.15);
+  --accent-glow: rgba(31, 111, 235, 0.3);
+  --online: #3fb950;
+  --unread: #3fb950;
+  --error: #f85149;
+  --date-bg: rgba(13, 17, 23, 0.7);
+  --input-bg: #21262d;
+  --input-border: #30363d;
+  --card: #161b22;
+  --card-line: rgba(48, 54, 61, 0.6);
+  color-scheme: dark;
+}
+[data-theme="light"] {
+  --app-bg: #f6f8fa;
+  --sidebar-bg: #fff;
+  --chat-bg: #e8f0fe;
+  --header-bg: rgba(255, 255, 255, 0.9);
+  --input-area-bg: rgba(255, 255, 255, 0.95);
+  --surface: #f0f3f7;
+  --surface-hover: #e8ecf1;
+  --line: rgba(208, 215, 222, 0.8);
+  --fg: #1f2328;
+  --fg-sub: #656d76;
+  --fg-muted: #8c959f;
+  --sent-bg: #0969da;
+  --sent-fg: #fff;
+  --sent-meta: rgba(255, 255, 255, 0.7);
+  --recv-bg: #fff;
+  --recv-fg: #1f2328;
+  --recv-meta: #8c959f;
+  --accent: #0969da;
+  --accent-soft: rgba(9, 105, 218, 0.1);
+  --accent-glow: rgba(9, 105, 218, 0.2);
+  --online: #1a7f37;
+  --unread: #1a7f37;
+  --error: #cf222e;
+  --date-bg: rgba(248, 250, 252, 0.8);
+  --input-bg: #fff;
+  --input-border: #d0d7de;
+  --card: #fff;
+  --card-line: rgba(208, 215, 222, 0.6);
+  color-scheme: light;
+}
+
+@theme inline {
+  --color-app: var(--app-bg);
+  --color-sidebar: var(--sidebar-bg);
+  --color-chat: var(--chat-bg);
+  --color-header: var(--header-bg);
+  --color-input-area: var(--input-area-bg);
+  --color-surface: var(--surface);
+  --color-surface-hover: var(--surface-hover);
+  --color-line: var(--line);
+  --color-fg: var(--fg);
+  --color-fg-sub: var(--fg-sub);
+  --color-fg-muted: var(--fg-muted);
+  --color-sent: var(--sent-bg);
+  --color-sent-fg: var(--sent-fg);
+  --color-sent-meta: var(--sent-meta);
+  --color-recv: var(--recv-bg);
+  --color-recv-fg: var(--recv-fg);
+  --color-recv-meta: var(--recv-meta);
+  --color-accent: var(--accent);
+  --color-accent-soft: var(--accent-soft);
+  --color-online: var(--online);
+  --color-unread: var(--unread);
+  --color-danger: var(--error);
+  --color-date: var(--date-bg);
+  --color-field: var(--input-bg);
+  --color-field-line: var(--input-border);
+  --color-card: var(--card);
+  --color-card-line: var(--card-line);
+  --shadow-glow: 0 4px 12px var(--accent-glow);
+}
+
+html,
+body,
+#root {
+  height: 100%;
+}
+body {
+  background: var(--app-bg);
+  color: var(--fg);
+  font-family: Inter, system-ui, sans-serif;
+}
