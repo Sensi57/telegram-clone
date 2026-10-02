@@ -1,0 +1,8 @@
+{
+  "login": { "title": "Вход в MAX Chat", "subtitle": "Введите данные инстанса GREEN-API", "idInstance": "idInstance", "token": "apiTokenInstance", "submit": "Войти", "checking": "Проверка…", "error": "Не удалось войти. Проверьте idInstance и токен" },
+  "sidebar": { "chats": "Чаты", "search": "Поиск", "empty": "Чатов пока нет. Нажмите ✎, чтобы начать", "noMessages": "Нет сообщений" },
+  "newChat": { "title": "Новый чат", "phone": "Номер телефона", "hint": "В международном формате, например 79991234567", "create": "Создать", "notFound": "Номер не найден в MAX", "invalid": "Введите корректный номер", "cancel": "Отмена" },
+  "chat": { "placeholder": "Написать сообщение...", "select": "Выберите чат или создайте новый", "today": "Сегодня", "yesterday": "Вчера" },
+  "settings": { "title": "Настройки", "appearance": "Внешний вид", "theme": "Оформление", "dark": "Тёмная", "light": "Светлая", "general": "Общие", "language": "Язык", "logout": "Выйти" },
+  "common": { "back": "Назад" }
+}
